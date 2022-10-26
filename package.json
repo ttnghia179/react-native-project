@@ -58,7 +58,7 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "npx eslint --fix",
-      "npx prettier write",
+      "npx prettier --write",
       "git add"
     ]
 }
